@@ -10,8 +10,8 @@ namespace Tyuiu.NikitinRYu.Sprint1.Task4.V10.Test
         public void ValidExpression()
         {
             DataService ds = new DataService();
-            double a = 45;
-            double wait = 1.707;
+            double a = 60;
+            double wait = 0.512;
             var res = ds.Calculate(a);
             Assert.AreEqual(wait, res);
         }
